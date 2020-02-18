@@ -1,0 +1,110 @@
+body {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+th{
+  font-family: lucida_grande_bold;
+  color: white;
+}
+td{
+  font-family: lucida_grande_bold;
+  color: grey;
+  vertical-align: bottom;
+}
+.btn{
+  border-radius: 25px;
+  border: 1px solid grey;
+  background-color: white;
+  width: 150px;
+  height: 45px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 10px 5px 10px;
+}
+.card{
+  margin-left: 30px;
+  margin-top: 50px;
+  padding: 15px 15px 15px 15px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  border: 2px #F1F1F1 solid;
+  top: 0;
+  left: 0;
+}
+#card-content {
+  width: 400px;
+  height: 230px;
+}
+#card-content-2{
+  width: 580px;
+  height: 320px;
+}
+#navbar {
+  background-color: white;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+#mapid {
+  margin-top: 4px;
+  height: 480px;
+  width: 100%;
+ }
+#btn-content{
+  margin: 0px 0px 0px 0px;
+  border-radius: 25px;
+  border: 1px solid grey;
+  background-color: white;
+  width: 120px;
+  height: 35px;
+  text-decoration: none;
+  display: inline-block;
+}
+#content {
+  padding: 30px 30px;
+  background-color: #F1F1F1;
+}
+
+#content2 {
+  padding: 30px 30px;
+  background-color: #F1F1F1;
+}
+h5 {
+  font-family: lucida_grande_bold;
+  color: white;
+  font-weight: bold;
+}
+#data-geo {
+  font-family: lucida_grande_bold;
+  color: black;
+}
+.round {
+  width: 100%;
+  border-radius: 15px;
+  border: 0px #000 solid;
+  padding: 5px 5px 5px 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 15;
+}
+.corner {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    background: #000;
+}
+.search {
+    position: relative;
+    width: 280px;
+    height: 30px;
+    margin-top: 15px;
+}
+.dropdown-menu {
+  max-height: 200px;
+  overflow-x:hidden; // hides the horizontal scroll
+  overflow-y:auto;
+}
